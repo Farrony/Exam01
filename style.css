@@ -2,11 +2,16 @@ body{
 	margin: 0;
 	padding: 0;
 }
+.wrapper{
+	width: 70%;
+	margin: 0 auto;
+}
 .left_area{
 	/*border: 2px solid red;*/
 	width: 44%;
 	float: left;
 	padding: 15px;
+	box-sizing: border-box;
 }
 .top{
 	/*border: 2px solid orange;*/
@@ -84,6 +89,7 @@ h2,h3{
 	/*border: 2px solid orange;*/
 	width: 48%;
 	padding: 7px;
+	box-sizing: border-box;
 }
 .education{
 	/*border: 2px solid orange;*/
